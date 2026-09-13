@@ -12,12 +12,14 @@ public class Hashing {
         System.out.println(set);
     //Search/contains value in HashSet
         if(set.contains(1))
-        {
             System.out.println("Set contains 1");
-        }
-        if(!set.contains(6))
-        {
-            System.out.println("Set does not contain 6");
-        }
+        if(!set.contains(6))           
+             System.out.println("Set does not contain 6");
+    //Delete value from HashSet
+        set.remove(1);
+        if(!set.contains(1))
+            System.out.println("Set does not contain 1");
+        System.out.println(set);
+        
     }
 }
