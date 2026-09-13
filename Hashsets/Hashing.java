@@ -7,9 +7,10 @@ public class Hashing {
         set.add(1);
         set.add(2);
         set.add(3);
-        set.add(4);
-        set.add(5);//list.add(5);
+        set.add(1);//list.add(5);
         System.out.println(set);
+    //Size
+        System.out.println("Size of HashSet is: "+set.size());
     //Search/contains value in HashSet
         if(set.contains(1))
             System.out.println("Set contains 1");
