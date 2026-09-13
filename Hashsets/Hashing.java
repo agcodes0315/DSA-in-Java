@@ -8,6 +8,7 @@ public class Hashing {
         set.add(2);
         set.add(3);
         set.add(1);//list.add(5);
+    //Print values in HashSet
         System.out.println(set);
     //Size
         System.out.println("Size of HashSet is: "+set.size());
