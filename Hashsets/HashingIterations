@@ -1,0 +1,11 @@
+import java.util.HashSet;
+import java.util.Iterator;
+public class HashingIterations
+{
+    public static void main(String args[])
+    {
+        Hashing<Integer> set=new Hashset<>();
+        //Iterator
+        Iterator it=set.iterator();
+    }
+}
